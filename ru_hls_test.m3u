@@ -1,0 +1,13 @@
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-ru.xml" x-tvg-url="https://iptv-epg.org/files/epg-ru.xml"
+#EXTINF:-1 tvg-id="ChannelOne.ru" tvg-name="Первый канал" tvg-logo="https://i.imgur.com/1IqCGe9.png" group-title="ТВ",Первый канал
+https://zabava-htlive.cdn.ngenix.net/hls/CH_1TV_7/variant.m3u8
+#EXTINF:-1 tvg-id="Russia1.ru" tvg-name="Россия 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Russia-1.svg/960px-Russia-1.svg.png" group-title="ТВ",Россия 1
+https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8
+#EXTINF:-1 tvg-id="TNT.ru" tvg-name="ТНТ" tvg-logo="https://i.imgur.com/1WqIPOB.png" group-title="ТВ",ТНТ
+https://bl.uma.media/live/317850/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 tvg-id="NTV.ru" tvg-name="НТВ" tvg-logo="https://i.imgur.com/DtQX5P2.png" group-title="ТВ",НТВ
+https://cdn-dvr.ntv.ru/ntv0_hd/index.m3u8
+#EXTINF:-1 tvg-id="Pyatnitsa.ru" tvg-name="Пятница!" tvg-logo="https://i.imgur.com/rS11zVB.png" group-title="ТВ",Пятница!
+https://bl.uma.media/live/317843/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 tvg-id="STS.ru" tvg-name="СТС" tvg-logo="https://i.imgur.com/y9bpqUD.png" group-title="ТВ",СТС
+https://streaming.televizor-24-tochka.ru/live/16.m3u8
