@@ -1,21 +1,21 @@
 #EXTM3U url-tvg="https://iptv-epg.org/files/epg-ru.xml" x-tvg-url="https://iptv-epg.org/files/epg-ru.xml"
-# Verified locally 2026-11-04. Partial playlist: 6 of 7 channels. All six channels have verified 1080p video. Channel One is provided by Cinerama; TNT/Friday RUTUBE URLs require signatures.
+# Order: Channel One, Russia 1, NTV, TNT, Friday, STS (pending), Russia K.
+# Channel One: 720p; other available channels: 1080p. STS has no verified source yet.
+#EXTINF:-1 tvg-id="Первыйканал.ru" tvg-logo="https://iptv-epg.org/images/3C9hySjBWv3O_GKkKizA_MXG8UFCwe0OUQwCKR_YlvAhFcMGlR0XQ1YD9CxRkSykx-ve0bB2qrgbjQpBxDzhTZHZFF0AWzAPgmZbFRgQfkj5fYZ_qQvUBBClxwHBE7a9hguzMFc0yPxNumzZdAqUWCjFrucmRgYtglVvU-pbde66TUkTbUY2PC2TEg" group-title="Российские HD",Первый канал HD 720p
+https://bl.rutube.ru/livestream/c58f502c7bb34a8fcdd976b221fca292/index.m3u8?s=YmuAvtFfUFkwg3tRphHp7A&e=2093806116&scheme=https
+
 #EXTINF:-1 tvg-id="Россия1HD.ru" tvg-logo="https://iptv-epg.org/images/T3xFnc7y4vjIhYacZiw5i7IWUZO6iBzYVtxXBCPuK6MoI0JasqYcrv9AyTadf6WkU9fviZ-yjhdpqAf1WvMjGaHi3qCtXqdIReUEt77WYGVShOp0aynv-NwZTdICX5f91eza7KjzWqk6bVMW_A-Z1A" group-title="Российские HD",Россия 1 HD
 https://stream.smotrim.ru/hls2/russia_hd/playlist_6.m3u8
+
 #EXTINF:-1 tvg-id="НТВ.ru" tvg-logo="https://iptv-epg.org/images/2aCGJ-qhlKvfBpTODoK_3BYYhK7ATuL4UjwHOJPjgSgcf0r0Yf_6a4lCcWuiZq831PQL9lYI022sctK2KDBcSkqBT1QiItiHAML-0m1EHM8ncxbuGVm7BpAB3w" group-title="Российские HD",НТВ HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://cdn.ntv.ru/ntv0_hd/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="РоссияК.ru" tvg-logo="https://iptv-epg.org/images/V8kPsVr9avFwCRnysCkcpj0lJcP_NPtYCZoGgpSXWCNAVGX8ythES_XUWnaZWNkKioS7iDE0x5-8v2meUfsgO5M1F5Wj3HzzwoVuw-WJFZh9iiyaHNkanA-GCjrWjdPt1pEz39BkK1af-XgwUg07MYyIig" group-title="Российские HD",Россия Культура HD
-https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8
 
-# Cinerama provider source discovered via iptv-org; 1080p + AAC verified. Not a broadcaster-direct URL.
-#EXTINF:-1 tvg-id="Первыйканал.ru" tvg-logo="https://iptv-epg.org/images/3C9hySjBWv3O_GKkKizA_MXG8UFCwe0OUQwCKR_YlvAhFcMGlR0XQ1YD9CxRkSykx-ve0bB2qrgbjQpBxDzhTZHZFF0AWzAPgmZbFRgQfkj5fYZ_qQvUBBClxwHBE7a9hguzMFc0yPxNumzZdAqUWCjFrucmRgYtglVvU-pbde66TUkTbUY2PC2TEg" group-title="Российские HD",Первый канал HD 1080p
-https://stream8.cinerama.uz/1214/tracks-v1a1/mono.m3u8
-
-# Official RUTUBE HLS: signature required, availability may change.
 #EXTINF:-1 tvg-id="ТНТ.ru" tvg-logo="https://iptv-epg.org/images/-ZBhzedY-RxqvfhuVmf6zVUOCLa_8k9x6M31sAnLKjNb7nYXPwAKl12Sx2Ap9uwsU5iUJpe8HrYnjqEN-MhtkkI5gNs1vkKkd_beVTnhKyHQ-UVdORfj59CaWg" group-title="Российские HD",ТНТ HD
 https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=mxTYMHWsSCg82W8d_ynd1g&e=2093804588&scheme=https
 
-# Official RUTUBE HLS: signature required, availability may change.
 #EXTINF:-1 tvg-id="Пятница.ru" tvg-logo="https://iptv-epg.org/images/obNu5ngMRX_KwFIaEiJ0t8GqQK1YrEEYD14portFFUjx-90emYkkWZVdU4TIxDN0bC0r0OfGVZyR8yLQeGc3waS6YoJIFa-HskFB4WxVZ3tkubR48RzPMbhl_uvGvXq_P6pY-Zmm16Es4GOXIsqJKG5zCQ" group-title="Российские HD",Пятница HD
 https://bl.rutube.ru/livestream/9f87a9a0cecbe773be6fddcbd93585ac/index.m3u8?s=qGLI_p3dH0-6SLTiRhFJYg&e=2093804588&scheme=https
+
+#EXTINF:-1 tvg-id="РоссияК.ru" tvg-logo="https://iptv-epg.org/images/V8kPsVr9avFwCRnysCkcpj0lJcP_NPtYCZoGgpSXWCNAVGX8ythES_XUWnaZWNkKioS7iDE0x5-8v2meUfsgO5M1F5Wj3HzzwoVuw-WJFZh9iiyaHNkanA-GCjrWjdPt1pEz39BkK1af-XgwUg07MYyIig" group-title="Российские HD",Россия Культура HD
+https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8
